@@ -1,0 +1,31 @@
+<div class="container">
+    <div class="row">
+        <section class="content">
+                            <table class="table">
+                                <tbody>
+                                    <tr *ngFor="let criketerList of criketerDetail">
+                                        <td>
+
+                                        </td>
+                                        <td>
+
+                                        </td>
+                                        <td>
+                                            
+                                                <h4 class="title">
+                                                    {{criketerList?.firstName}} {{criketerList?.lastName}}
+                                                </h4>
+                                                
+                                                    <h4 class="media-meta pull-right">{{criketerList?.favShot}}</h4>
+                                                    
+                                                
+                                            
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        
+            
+        </section>
+    </div>
+</div>
